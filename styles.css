@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto' , sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+.right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.buttons-r {
+    display: flex;
+}
+.gmail {
+    color: #2d2d2d;
+    text-decoration: none;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.images {
+    color: #2d2d2d;
+    text-decoration: none;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.google-icon {
+    margin-right: 20px;   
+    width: 15px;
+}
+.profile-photo {
+    width: 30px;
+    border-radius: 100%;
+}    
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.face{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-logo {
+    width: 400px;
+}
+.search-bar {
+    margin: 30px 0;
+    position: relative;
+    width: 100%;
+}
+.search-bar .search-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    display: flex;
+    font-size: 20px;
+    color: #888888;
+}
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+.fa-search:before {
+    content: "\f2eb";
+}
+.fa, .fa-stack {
+    display: inline-block;
+}
+.search-bar input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    border-radius: 100px;
+    padding: 0 50px;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(136, 136, 136, 0);
+    font-size: 18px;
+    transition: box-shadow .3s;
+}
+
+.mic {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.search-bar .search-voice {
+    position: absolute;
+    height: 50px;
+    top: 0;
+}
+.search-bar .search-voice.right {
+    right: 0;
+}
+.search-buttons {
+    display: flex;
+    margin-bottom: 30px;
+}
+.search-buttons a {
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: #ececec;
+    color: grey;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+.search-offers a {
+    color: #3f50b5;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #ececec;
+    border-top: 1px solid #d4d4d4;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.left-footer{
+    display: flex;
+    align-items: center;
+}
+.footer-elements {
+    display: flex;
+}
+.right-footer {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.footer-elements a {
+    color: grey;
+    text-decoration: none;
+    margin-right: 15px;
+}
+}
